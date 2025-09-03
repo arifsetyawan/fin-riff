@@ -1,0 +1,38 @@
+{
+  "name": "fin-riff",
+  "version": "1.0.0",
+  "description": "Financial-safe reference generator with persistence support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "reference",
+    "id",
+    "generator",
+    "financial",
+    "safe",
+    "persistence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/redis": "^4.0.11",
+    "@vitest/ui": "^3.2.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "ioredis": "^5.7.0",
+    "redis": "^5.8.2"
+  }
+}
