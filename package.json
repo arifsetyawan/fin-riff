@@ -20,7 +20,15 @@
     "safe",
     "persistence"
   ],
-  "author": "",
+  "author": "Arif Setyawan <me@arifsetyawan.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifsetyawan/fin-riff.git"
+  },
+  "homepage": "https://github.com/arifsetyawan/fin-riff#readme",
+  "bugs": {
+    "url": "https://github.com/arifsetyawan/fin-riff/issues"
+  },
   "license": "MIT",
   "packageManager": "pnpm@10.5.2",
   "devDependencies": {
