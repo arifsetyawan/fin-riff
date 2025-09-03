@@ -1,0 +1,30 @@
+# Source files
+src/
+examples/
+
+# Test files
+*.test.ts
+*.spec.ts
+vitest.config.ts
+coverage/
+
+# Development files
+.gitignore
+.git/
+tsconfig.json
+pnpm-lock.yaml
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude
+
+# Build artifacts
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+*.log
